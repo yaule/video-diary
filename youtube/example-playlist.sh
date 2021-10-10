@@ -1,0 +1,36 @@
+curl 'https://studio.youtube.com/youtubei/v1/creator/get_creator_playlists?xxxxxx' \
+  -H 'authority: studio.youtube.com' \
+  -H 'x-youtube-delegation-context: xxxxx' \
+  -H 'x-origin: https://studio.youtube.com' \
+  -H 'x-youtube-page-label: xxxxx' \
+  -H 'authorization: SAPISIDHASH xxxx' \
+  -H 'sec-ch-ua-arch: "xx"' \
+  -H 'x-youtube-page-cl: 0000' \
+  -H 'sec-ch-ua-platform-version: "0000"' \
+  -H 'x-youtube-utc-offset: 480' \
+  -H 'x-goog-visitor-id: xxx' \
+  -H 'x-goog-authuser: 0' \
+  -H 'sec-ch-ua-bitness: "00"' \
+  -H 'sec-ch-ua-model: ' \
+  -H 'x-youtube-time-zone: xxx' \
+  -H 'sec-ch-ua-platform: "xxx"' \
+  -H 'sec-ch-ua-mobile: xxx' \
+  -H 'user-agent: xxxx' \
+  -H 'sec-ch-ua-full-version: "000"' \
+  -H 'x-youtube-client-name: 000' \
+  -H 'x-youtube-client-version: 000' \
+  -H 'content-type: application/json' \
+  -H 'x-goog-pageid: undefined' \
+  -H 'sec-ch-ua: xxxx' \
+  -H 'x-youtube-ad-signals: xxxx' \
+  -H 'accept: */*' \
+  -H 'origin: https://studio.youtube.com' \
+  -H 'x-client-data: xxxx' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: xxx' \
+  -H 'accept-language: xxx' \
+  -H 'cookie: xxxx' \
+  --data-raw 'xxxx' \
+  --compressed

@@ -1,0 +1,9 @@
+*.ini
+*.json
+*.pyc
+*.sh
+/youtube/youtube-upload
+
+!example*.ini
+!example*.json
+!example*.sh
